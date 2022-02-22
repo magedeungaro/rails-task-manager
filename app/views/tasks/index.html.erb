@@ -1,3 +1,5 @@
+<h1>Tasks manager</h1>
+
 <ul>
   <% @tasks.each do |task| %>
   <li>
@@ -5,3 +7,5 @@
   </li>
   <% end %>
 </ul>
+
+<%= link_to 'Add new task', new_task_path %>
